@@ -14,6 +14,7 @@
 		82CC076921963D6D008B78C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CC076821963D6D008B78C7 /* main.m */; };
 		82CC077121963E67008B78C7 /* LSVersionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CC077021963E67008B78C7 /* LSVersionsTableViewController.m */; };
 		82CC077421964B6F008B78C7 /* LSOSXVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CC077321964B6F008B78C7 /* LSOSXVersion.m */; };
+		82CC07772196508B008B78C7 /* LSVersionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CC07762196508B008B78C7 /* LSVersionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		82CC077021963E67008B78C7 /* LSVersionsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSVersionsTableViewController.m; sourceTree = "<group>"; };
 		82CC077221964B6F008B78C7 /* LSOSXVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSOSXVersion.h; sourceTree = "<group>"; };
 		82CC077321964B6F008B78C7 /* LSOSXVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSOSXVersion.m; sourceTree = "<group>"; };
+		82CC07752196508B008B78C7 /* LSVersionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSVersionController.h; sourceTree = "<group>"; };
+		82CC07762196508B008B78C7 /* LSVersionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSVersionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				82CC075A21963D6C008B78C7 /* AppDelegate.m */,
 				82CC077221964B6F008B78C7 /* LSOSXVersion.h */,
 				82CC077321964B6F008B78C7 /* LSOSXVersion.m */,
+				82CC07752196508B008B78C7 /* LSVersionController.h */,
+				82CC07762196508B008B78C7 /* LSVersionController.m */,
 				82CC076F21963E67008B78C7 /* LSVersionsTableViewController.h */,
 				82CC077021963E67008B78C7 /* LSVersionsTableViewController.m */,
 				82CC075F21963D6C008B78C7 /* Main.storyboard */,
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82CC07772196508B008B78C7 /* LSVersionController.m in Sources */,
 				82CC077421964B6F008B78C7 /* LSOSXVersion.m in Sources */,
 				82CC076921963D6D008B78C7 /* main.m in Sources */,
 				82CC075B21963D6C008B78C7 /* AppDelegate.m in Sources */,

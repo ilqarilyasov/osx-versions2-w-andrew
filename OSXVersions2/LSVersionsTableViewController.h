@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class LSVersionController;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LSVersionsTableViewController : UITableViewController
+
+@property LSVersionController *versionController;
 
 @end
 
