@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LSVersionsTableViewController.h
 //  OSXVersions2
 //
 //  Created by Ilgar Ilyasov on 11/9/18.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface LSVersionsTableViewController : UITableViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
