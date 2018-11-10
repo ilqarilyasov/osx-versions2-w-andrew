@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 // var releaseDate: String
 
 @property NSString *codename;
-@property NSString *releaseDare;
+@property NSString *releaseDate;
 
 @end
 

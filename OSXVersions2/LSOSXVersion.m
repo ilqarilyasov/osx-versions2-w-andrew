@@ -15,7 +15,7 @@
     self = [super init];
     if (self != nil) {
         _codename = codename;
-        _releaseDare = releaseDate;
+        _releaseDate = releaseDate;
     }
     return self;
 }
